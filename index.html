@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portal educativo sobre Boas Práticas Escolares, Diversidade e Inclusão Social. Recursos para construir uma comunidade escolar acolhedora, inclusiva e baseada no respeito mútuo.">
+    <meta name="keywords" content="boas praticas escolares, diversidade na escola, inclusao social, educacao inclusiva, combate ao bullying, empatia, cidadania">
+    <meta name="author" content="Projeto Escola Inclusiva">
+    
+    <title>Convivência Escolar: Boas Práticas, Diversidade e Inclusão</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <a href="#conteudo-principal" class="pular-link">Pular para o conteúdo principal</a>
+
+    <header class="barra-navegacao" role="banner">
+        <div class="nav-container">
+            <a href="#" class="logo" aria-label="Página Inicial - Escola Inclusiva">
+                <i class="ph ph-graduation-cap" aria-hidden="true"></i>
+                <span>Escola<span class="destaque-logo">Inclusiva</span></span>
+            </a>
+            
+            <nav id="menu-principal" aria-label="Menu Principal">
+                <button class="menu-hamburguer" aria-expanded="false" aria-controls="links-navegacao" aria-label="Abrir menu de navegação">
+                    <i class="ph ph-list" aria-hidden="true"></i>
+                </button>
+                
+                <ul id="links-navegacao" class="links-nav">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#praticas">Boas Práticas</a></li>
+                    <li><a href="#diversidade">Diversidade</a></li>
+                    <li><a href="#inclusao">Inclusão</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#quiz">Quiz Interativo</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="acoes-nav">
+                <button id="alternador-tema" class="btn-tema" aria-label="Alternar para Modo Escuro">
+                    <i class="ph ph-moon" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="conteudo-principal">
+
+        <section class="secao-hero" aria-labelledby="titulo-hero">
+            <div class="container-hero">
+                <div class="conteudo-hero">
+                    <span class="tagline">Educação para o Futuro</span>
+                    <h1 id="titulo-hero">Construindo uma Escola Mais Inclusiva e Respeitosa</h1>
+                    <p>O ambiente escolar é o reflexo da sociedade que desejamos. Promover a empatia, valorizar a diversidade humana e aplicar práticas colaborativas diárias são os passos essenciais para transformar a educação e acolher a todos sem distinção.</p>
+                    <div class="botoes-hero">
+                        <a href="#sobre" class="btn btn-primario">Saiba Mais <i class="ph ph-arrow-down" aria-hidden="true"></i></a>
+                        <a href="#quiz" class="btn btn-secundario">Testar Conhecimentos</a>
+                    </div>
+                </div>
+                <div class="imagem-hero">
+                    <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=800&q=80" alt="Grupo diversificado de estudantes sorridentes sentados juntos em uma sala de aula moderna, interagindo de forma amigável." class="img-responsiva animate-suave">
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="secao-sobre" aria-labelledby="titulo-sobre">
+            <div class="container animate-scroll">
+                <div class="alinhamento-sobre">
+                    <div class="texto-sobre">
+                        <h2 id="titulo-sobre">Educar para a Empatia e o Respeito</h2>
+                        <p class="paragrafo-destaque">Uma escola de qualidade não se mede apenas pelo desempenho acadêmico, mas pela capacidade de humanizar relações e incluir todas as realidades existenciais.</p>
+                        <p>As <strong>boas práticas escolares</strong> representam um conjunto de ações cotidianas baseadas no diálogo, no zelo coletivo e no compromisso ético. Quando cultivadas, criam uma rede segura onde os conflitos transformam-se em oportunidades de aprendizado social.</p>
+                        <p>A <strong>diversidade</strong> não é um obstáculo para o ensino, mas sim uma de suas maiores fontes de riqueza cultural. Ambientes plurais ensinam estudantes a pensarem de maneira crítica, flexível e inovadora, preparando cidadãos conscientes para um mundo globalizado e multifacetado.</p>
+                    </div>
+                    <div class="cartao-conceito">
+                        <h3>Nossos Pilares Básicos</h3>
+                        <ul class="lista-pilares">
+                            <li><i class="ph ph-check-circle" aria-hidden="true"></i> <strong>Equidade:</strong> Oferecer suporte personalizado conforme a necessidade de cada indivíduo.</li>
+                            <li><i class="ph ph-users-three" aria-hidden="true"></i> <strong>Pluralidade:</strong> Reconhecer e honrar diferentes origens, crenças e identidades.</li>
+                            <li><i class="ph ph-hand-heart" aria-hidden="true"></i> <strong>Alteridade:</strong> Colocar-se no lugar do outro e acolher sua singularidade por completo.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="praticas" class="secao-praticas bg-alternativo" aria-labelledby="titulo-praticas">
+            <div class="container animate-scroll">
+                <div class="centro-texto">
+                    <h2 id="titulo-praticas">Boas Práticas Escolares no Cotidiano</h2>
+                    <p class="subtitulo">Pequenas atitudes diárias que geram grandes transformações na convivência de toda a comunidade.</p>
+                </div>
+                
+                <div class="grade-cartoes">
+                    <article class="cartao-pratica">
+                        <div class="icone-cartao c-azul" aria-hidden="true">
+                            <i class="ph ph-heart"></i>
+                        </div>
+                        <h3>Respeito aos Colegas</h3>
+                        <p>Tratar a todos com cortesia e urbanidade, valorizando suas opiniões e aceitando as diferenças individuais como caminhos de evolução.</p>
+                    </article>
+                    <article class="cartao-pratica">
+                        <div class="icone-cartao c-laranja" aria-hidden="true">
+                            <i class="ph ph-shield-warning"></i>
+                        </div>
+                        <h3>Combate ao Bullying</h3>
+                        <p>Atuar ativamente na prevenção e interrupção de brincadeiras ofensivas, exclusões propositais ou qualquer agressão física e verbal.</p>
+                    </article>
+                    <article class="cartao-pratica">
+                        <div class="icone-cartao c-verde" aria-hidden="true">
+                            <i class="ph ph-handshake"></i>
+                        </div>
+                        <h3>Cooperação em Equipe</h3>
+                        <p>Apoiar colegas que encontram dificuldades acadêmicas e incentivar a construção de saberes de maneira integrada e fraterna.</p>
+                    </article>
+                    <article class="cartao-pratica">
+                        <div class="icone-cartao c-azul" aria-hidden="true">
+                            <i class="ph ph-book-open"></i>
+                        </div>
+                        <h3>Responsabilidade com os Estudos</h3>
+                        <p>Manter a assiduidade, cumprir os prazos pedagógicos propostos e demonstrar engajamento real nas atividades acadêmicas propostas.</p>
+                    </article>
+                    <article class="cartao-pratica">
+                        <div class="icone-cartao c-verde" aria-hidden="true">
+                            <i class="ph ph-plant"></i>
+                        </div>
+                        <h3>Preservação do Ambiente</h3>
+                        <p>Zelar pelo patrimônio público escolar, cuidando das salas, dos banheiros, pátios e gerindo o lixo produzido de forma ecológica.</p>
+                    </article>
+                    <article class="cartao-pratica">
+                        <div class="icone-cartao c-laranja" aria-hidden="true">
+                            <i class="ph ph-device-mobile"></i>
+                        </div>
+                        <h3>Uso Consciente da Tecnologia</h3>
+                        <p>Utilizar smartphones e computadores para fins de pesquisa e expansão do saber, evitando distrações ou práticas nocivas na rede.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="diversidade" class="secao-diversidade" aria-labelledby="titulo-diversidade">
+            <div class="container animate-scroll">
+                <div class="centro-texto">
+                    <h2 id="titulo-diversidade">A Riqueza de uma Escola Plural</h2>
+                    <p class="subtitulo">A diversidade humana expande horizontes cognitivos e ensina o valor intrínseco de cada história de vida.</p>
+                </div>
+
+                <div class="bloco-diversidade">
+                    <div class="lista-diversidade">
+                        <div class="item-diversidade">
+                            <h4><span class="num-ponto">01</span> Diversidade Cultural e Étnica</h4>
+                            <p>Valorização das matrizes históricas que formam o país, resgatando saberes indígenas, afro-brasileiros e imigrantes nas discussões pedagógicas.</p>
+                        </div>
+                        <div class="item-diversidade">
+                            <h4><span class="num-ponto">02</span> Pluralidade Religiosa</h4>
+                            <p>Respeito irrestrito a todas as fés e convicções espirituais, bem como ao direito à descrença, garantindo a laicidade e a paz social.</p>
+                        </div>
+                        <div class="item-diversidade">
+                            <h4><span class="num-ponto">03</span> Equidade de Gênero</h4>
+                            <p>Promoção de um ecossistema seguro onde meninas e meninos possuam oportunidades idênticas de desenvolvimento intelectual, esportivo e liderança.</p>
+                        </div>
+                        <div class="item-diversidade">
+                            <h4><span class="num-ponto">04</span> Inclusão de Pessoas com Deficiência (PCD)</h4>
+                            <p>Enxergar o estudante além de sua condição clínica, adaptando avaliações e removendo obstáculos arquitetônicos ou comportamentais.</p>
+                        </div>
+                    </div>
+                    <div class="imagens-diversidade">
+                        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=600&q=80" alt="Estudantes universitários de etnias variadas rindo juntos enquanto estudam ao ar livre." class="img-arredondada">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="inclusao" class="secao-inclusao bg-alternativo" aria-labelledby="titulo-inclusao">
+            <div class="container animate-scroll">
+                <div class="alinhamento-inclusao">
+                    <div class="grafico-ilustrativo-vazio" aria-hidden="true">
+                        <i class="ph ph-users-four icone-gigante"></i>
+                    </div>
+                    <div class="conteudo-inclusao">
+                        <h2 id="titulo-inclusao">Inclusão Social e Cidadania Ativa</h2>
+                        <p>A inclusão real se manifesta no desenho universal de aprendizagem, no qual o ambiente se adapta às necessidades humanas e não o contrário. É ir além da simples integração física: trata-se de garantir pertencimento ativo.</p>
+                        
+                        <div class="grade-linhas-inclusao">
+                            <div class="linha-inclusao">
+                                <h5><i class="ph ph-wheelchair" aria-hidden="true"></i> Acessibilidade Plena</h5>
+                                <p>Presença de rampas, pisos podotáteis, audiodescrição e tradutores de Libras em todas as instâncias do saber escolar.</p>
+                            </div>
+                            <div class="linha-inclusao">
+                                <h5><i class="ph ph-scales" aria-hidden="true"></i> Igualdade de Oportunidades</h5>
+                                <p>Programas de monitoria pedagógica e permanência escolar voltados a estudantes em vulnerabilidade socioeconômica.</p>
+                            </div>
+                            <div class="linha-inclusao">
+                                <h5><i class="ph ph-megaphone" aria-hidden="true"></i> Gestão Democrática</h5>
+                                <p>Grêmios estudantis e conselhos escolares deliberativos com representação efetiva e plural de todos os segmentos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="secao-galeria" aria-labelledby="titulo-galeria">
+            <div class="container animate-scroll">
+                <div class="centro-texto">
+                    <h2 id="titulo-galeria">Nossa Comunidade em Imagens</h2>
+                    <p class="subtitulo">Registros visuais inspiradores que refletem a cooperação, o aprendizado mútuo e a beleza da convivência plural.</p>
+                </div>
+
+                <div class="grade-galeria">
+                    <figure class="item-galeria">
+                        <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=500&q=80" alt="Professora auxiliando atenciosamente uma aluna cadeirante em laboratório de informática.">
+                        <figcaption>Acessibilidade e Tecnologia</figcaption>
+                    </figure>
+                    <figure class="item-galeria">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=500&q=80" alt="Crianças em roda escolar sorrindo e unindo as mãos no centro do círculo.">
+                        <figcaption>União e Fraternidade</figcaption>
+                    </figure>
+                    <figure class="item-galeria">
+                        <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=500&q=80" alt="Estudantes debruçados sobre um mapa mundi realizando trabalho colaborativo de geografia.">
+                        <figcaption>Trabalho Cooperativo</figcaption>
+                    </figure>
+                    <figure class="item-galeria">
+                        <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=500&q=80" alt="Jovens sentados em ambiente descontraído conversando alegremente com livros abertos.">
+                        <figcaption>Diálogo e Convivência</figcaption>
+                    </figure>
+                    <figure class="item-galeria">
+                        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=500&q=80" alt="Professor sorridente apontando para o quadro negro ministrando aula de ciências.">
+                        <figcaption>Educação Transformadora</figcaption>
+                    </figure>
+                    <figure class="item-galeria">
+                        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=500&q=80" alt="Aluna negra de óculos realizando apresentação acadêmica em público com confiança.">
+                        <figcaption>Protagonismo Estudantil</figcaption>
+                    </figure>
+                    <figure class="item-galeria">
+                        <img src="https://images.unsplash.com/photo-1531545514256-b1400bc00f31?auto=format&fit=crop&w=500&q=80" alt="Duas jovens com trajes culturais típicos compartilhando uma leitura acadêmica em biblioteca.">
+                        <figcaption>Interculturalidade Viva</figcaption>
+                    </figure>
+                    <figure class="item-galeria">
+                        <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&w=500&q=80" alt="Grupo de formandos atirando capelos para o alto em celebração coletiva de graduação.">
+                        <figcaption>Sucesso e Oportunidades</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao-estatisticas bg-azul-escura branca" aria-labelledby="titulo-estatisticas">
+            <div class="container">
+                <h2 id="titulo-estatisticas" class="sr-only">Nossas Métricas de Impacto</h2>
+                <div class="grade-estatisticas">
+                    <div class="card-estatistica">
+                        <span class="numero-contador" data-alvo="94">%</span>
+                        <p class="legenda-estatistica">Dos alunos relatam maior bem-estar em salas plurais e acolhedoras.</p>
+                    </div>
+                    <div class="card-estatistica">
+                        <span class="numero-contador" data-alvo="35">%</span>
+                        <p class="legenda-estatistica">De ganho nos índices de proficiência cognitiva geral em escolas inclusivas.</p>
+                    </div>
+                    <div class="card-estatistica">
+                        <span class="numero-contador" data-alvo="100">%</span>
+                        <p class="legenda-estatistica">De foco na eliminação total de barreiras físicas e comportamentais.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="quiz" class="secao-quiz bg-alternativo" aria-labelledby="titulo-quiz">
+            <div class="container animate-scroll">
+                <div class="centro-texto">
+                    <h2 id="titulo-quiz">Desafio da Cidadania: Quiz Interativo</h2>
+                    <p class="subtitulo">Avalie o seu nível de percepção social sobre empatia, diversidade e as boas práticas de convívio na escola.</p>
+                </div>
+
+                <div class="caixa-quiz">
+                    <div id="container-pergunta-quiz">
+                        </div>
+                    <div class="controles-quiz">
+                        <span id="progresso-quiz">Pergunta 1 de 5</span>
+                        <button id="btn-proximo-quiz" class="btn btn-primario" disabled>Responder <i class="ph ph-arrow-right"></i></button>
+                    </div>
+                    <div id="resultado-quiz" class="resultado-quiz oculto">
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao-depoimentos" aria-labelledby="titulo-depoimentos">
+            <div class="container animate-scroll">
+                <div class="centro-texto">
+                    <h2 id="titulo-depoimentos">Vozes da Comunidade</h2>
+                    <p class="subtitulo">Veja os depoimentos de quem vivencia diariamente a construção de um ambiente pedagógico humanitário.</p>
+                </div>
+
+                <div class="grade-depoimentos">
+                    <blockquote class="card-depoimento">
+                        <p class="texto-depoimento">"Entrar em uma escola que respeita minha identidade cultural me deu forças para estudar e me destacar. Sinto que faço parte real deste local."</p>
+                        <cite class="autor-depoimento">
+                            <strong>Mariana Souza</strong>
+                            <span>Estudante do 3º Ano</span>
+                        </cite>
+                    </blockquote>
+                    <blockquote class="card-depoimento">
+                        <p class="texto-depoimento">"Trabalhar metodologias voltadas à acessibilidade permitiu que alunos com deficiência demonstrassem potenciais criativos que antes ficavam ocultos."</p>
+                        <cite class="autor-depoimento">
+                            <strong>Prof. Roberto Sales</strong>
+                            <span>Docente de História</span>
+                        </cite>
+                    </blockquote>
+                    <blockquote class="card-depoimento">
+                        <p class="texto-depoimento">"Como mãe de aluno, fico em paz sabendo que a instituição possui políticas severas de combate ao bullying e preza pela segurança emocional."</p>
+                        <cite class="autor-depoimento">
+                            <strong>Clarice Mendes</strong>
+                            <span>Mãe de Aluno do Ensino Fundamental</span>
+                        </cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="secao-contato bg-alternativo" aria-labelledby="titulo-contato">
+            <div class="container animate-scroll">
+                <div class="caixa-contato">
+                    <div class="info-contato">
+                        <h2 id="titulo-contato">Fale Conosco</h2>
+                        <p>Tem alguma sugestão pedagógica, denúncia ou deseja compartilhar ações inclusivas bem-sucedidas em sua região? Envie sua mensagem para nossa equipe de coordenação social.</p>
+                        <div class="canais-contato">
+                            <p><i class="ph ph-envelope" aria-hidden="true"></i> contato@escolainclusiva.edu</p>
+                            <p><i class="ph ph-phone" aria-hidden="true"></i> (11) 4003-0000</p>
+                        </div>
+                    </div>
+                    
+                    <form id="form-contato" class="formulario" novalidate>
+                        <div class="grupo-campo">
+                            <label for="campo-nome">Nome Completo</label>
+                            <input type="text" id="campo-nome" name="nome" required minlength="3" placeholder="Digite seu nome completo">
+                            <span class="msg-erro" id="erro-nome" role="alert">Este campo é de preenchimento obrigatório.</span>
+                        </div>
+                        
+                        <div class="grupo-campo">
+                            <label for="campo-email">Endereço de E-mail</label>
+                            <input type="email" id="campo-email" name="email" required placeholder="exemplo@email.com">
+                            <span class="msg-erro" id="erro-email" role="alert">Insira um endereço de e-mail válido.</span>
+                        </div>
+                        
+                        <div class="grupo-campo">
+                            <label for="campo-mensagem">Sua Mensagem</label>
+                            <textarea id="campo-mensagem" name="mensagem" required minlength="10" rows="5" placeholder="Escreva detalhadamente sua mensagem..."></textarea>
+                            <span class="msg-erro" id="erro-mensagem" role="alert">A mensagem precisa conter no mínimo 10 caracteres.</span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primario btn-bloco">Enviar Mensagem <i class="ph ph-paper-plane"></i></button>
+                        <div id="sucesso-form" class="alerta-sucesso oculto" role="alert">Mensagem validada e enviada com sucesso!</div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape" role="contentinfo">
+        <div class="container conteudo-rodape">
+            <div class="logo-rodape">
+                <p class="logo-f"><i class="ph ph-graduation-cap"></i> Escola Inclusiva</p>
+                <p>Promovendo uma educação equânime, pacífica e integral para todas as pessoas.</p>
+            </div>
+            <div class="links-uteis-rodape">
+                <h5>Navegação Direta</h5>
+                <ul>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#praticas">Práticas Sociais</a></li>
+                    <li><a href="#quiz">Teste do Quiz</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sub-rodape">
+            <p>&copy; 2026 Escola Inclusiva. Desenvolvido sob princípios de acessibilidade digital e licença Creative Commons.</p>
+        </div>
+    </footer>
+
+    <button id="btn-topo" class="btn-voltar-topo" aria-label="Voltar para o topo da página">
+        <i class="ph ph-caret-up" aria-hidden="true"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
